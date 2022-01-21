@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Business from '../img/marketing.mp4'
 import circles from '../img/circles.svg'
 import { InnerLayout } from '../Layouts'
+import MainContent from './MainContent'
 
 const MainArea = () => {
     return (
@@ -11,7 +12,7 @@ const MainArea = () => {
             <img src={circles} alt='' className='overlay' />
 
             <InnerLayout>
-
+                <MainContent />
             </InnerLayout>
         </MainAreaStyled>
     )
