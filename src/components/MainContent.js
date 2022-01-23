@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navigation from './Navigation.js'
+import SmallHeadings from './SmallHeadings.js'
 
 const MainContent = () => {
     return (
@@ -8,7 +9,7 @@ const MainContent = () => {
             <Navigation />
             <div className='content'>
                 <div className='left'>
-
+                    <SmallHeadings title={'All Digital Currencies In One Place'} identifier={'Before'} />
                 </div>
                 <div className='right'>
 
