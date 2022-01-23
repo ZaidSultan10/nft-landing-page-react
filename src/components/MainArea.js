@@ -20,7 +20,7 @@ const MainArea = () => {
 
 const MainAreaStyled = styled.div`
     width:100%;
-    height:85vh;
+    height:100vh;
     position:relative;
     overflow:hidden;
 
@@ -28,15 +28,15 @@ const MainAreaStyled = styled.div`
         width:100%;
         height:100%;
         position: absolute;
-        right:-400px;
-        top:-300px;
+        right:-200px;
+        top:-200px;
     }
 
     video{
         width:100%;
         height:100%;
         object-fit:cover;
-        opacity:0.7;
+        opacity:0.8;
     }
 `;
 

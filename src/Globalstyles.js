@@ -37,6 +37,13 @@ const GlobalStyles = createGlobalStyle`
             background-color: #395FF6 ;
         }
     }
+    .GradientText{
+        background: linear-gradient(120deg, rgb(132, 111, 244), rgb(241, 118, 116));
+        background-clip: text;
+        display: inline-block;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
 `
 
 export default GlobalStyles
