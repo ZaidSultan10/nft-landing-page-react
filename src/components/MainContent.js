@@ -28,10 +28,10 @@ const MainContent = () => {
             <div className='content'>
                 <div className='left'>
                     <SmallHeadings title={'All Digital Currencies In One Place'} identifier={'Before'} />
-                    <h1>{paraTexts[0].text}
+                    <h2>{paraTexts[0].text}
                     {paraTexts[1].text} , {paraTexts[2].text} <span className='GradientText'>
                         {paraTexts[3].text}    
-                    </span> </h1>
+                    </span> </h2>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
@@ -64,14 +64,22 @@ const MainContentStyled = styled.div`
         height:100%;
         width:100%;
 
+        .btns-con{
+            margin-top:1rem;
+        }
+
         .left{
             margin-bottom:50px;
             display:flex;
             justify-content:center;
             flex-direction:column;
 
-            h1{
+            h2{
                 padding:1.8rem 0;
+            }
+
+            p{
+                font-size:14px;
             }
         }
         .right{
@@ -79,7 +87,7 @@ const MainContentStyled = styled.div`
             img{
                 position:absolute;
                 right:-11%;
-                bottom:0;
+                bottom:6%;
                 width:60%;
             }
         }
