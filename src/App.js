@@ -1,11 +1,13 @@
 import React from 'react'
 import './App.css';
+import BodyContent from './components/BodyContent';
 import MainArea from './components/MainArea'
 
 function App() {
   return (
     <div className="App">
       <MainArea />
+      <BodyContent />
     </div>
   );
 }

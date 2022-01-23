@@ -1,21 +1,30 @@
-const data = [{
-    id:1,
-    name:'ciri',
-    image:'daalta hoon',
-    currency:'500 ETH'
-},{
-    id:2,
-    name:'geralt',
-    image:'daalta hoon',
-    currency:'1500 ETH'
-},{
-    id:1,
-    name:'yen',
-    image:'daalta hoon',
-    currency:'800 ETH'
-},{
-    id:1,
-    name:'jaskier',
-    image:'daalta hoon',
-    currency:'2500 ETH'
-}]
+import avatar1 from './img/avata.jpg';
+
+const data = [
+    {
+        id: 1,
+        name: 'Lorem Ipsum',
+        image: avatar1,
+        currency: '500.6 ETH'
+    },
+    {
+        id: 2,
+        name: 'Jane Doe',
+        image: avatar1,
+        currency: '500.6 ETH'
+    },
+    {
+        id: 3,
+        name: 'John Doe',
+        image: avatar1,
+        currency: '500.6 ETH'
+    },
+    {
+        id: 4,
+        name: 'Sarah Doe',
+        image: avatar1,
+        currency: '500.6 ETH'
+    }
+]
+
+export default data;
