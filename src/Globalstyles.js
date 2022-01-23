@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
         box-sizing : border-box;
     }
     body{
-        background-color: lightblue;
+        background-color: black;
         font-family: 'Montserrat', sans-serif;
         font-size:1.2rem;
         font-weight:400;
@@ -43,6 +43,11 @@ const GlobalStyles = createGlobalStyle`
         display: inline-block;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+    }
+    .title-con{
+        text-align:center;
+        width:80%;
+        margin:0 auto;
     }
 `
 
