@@ -4,6 +4,7 @@ import {InnerLayout} from '../Layouts.js'
 import MainTitle from './MainTitle.js'
 import SellerCards from './SellerCards.js'
 import BlogSections from './BlogSections.js'
+import GradientsCardsSection from './GradientsCardsSection.js'
 
 
 const BodyContent = () => {
@@ -20,6 +21,7 @@ const BodyContent = () => {
                     <SellerCards />
                 </div>
                 <BlogSections />
+                <GradientsCardsSection />
             </InnerLayout>
         </BodyContentStyled>
     )
