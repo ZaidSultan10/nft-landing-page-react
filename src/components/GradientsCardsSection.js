@@ -78,13 +78,19 @@ const GradientsCardsSection = () => {
                         ))
                     }
                 </div>
+                <div className='cta-btn'>
+                    <CtaButton name={'View More'} />
+                </div>
             </SectionStyled>
         </GradientsCardsSectionStyled>
     )
 }
 
 const GradientsCardsSectionStyled = styled.div`
-
+    .cta-btn{
+        padding-top:3rem;
+        text-align:center;
+    }
 `
 
 export default GradientsCardsSection

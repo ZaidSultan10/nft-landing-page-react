@@ -19,11 +19,11 @@ const GradientCard = ({image,avatar,name,price,title}) => {
                         <h6 className='card-name'>
                             {title}
                         </h6>
-                        <p>Price <span className='price'>{price}</span>&nsbsp;&nsbsp;<span className='l-text'>3 Of 15</span></p>
-                        <p>Highest Bid : &nsbsp; <span className='price'>{price}</span></p>
+                        <p>Price <span className='price'>{price}</span>&nbsp;&nbsp;<span className='l-text'>3 Of 15</span></p>
+                        <p>Highest Bid : &nbsp; <span className='price'>{price}</span></p>
                         <div className='duration'>
-                            <p><img src={time} alt='' /></p>
-                            <p><img src={heart} alt='' /></p>
+                            <p><img src={time} alt='' />7 Hours</p>
+                            <p><img src={heart} alt='' />150 Likes</p>
                         </div>
                     </div>
                 </div>
@@ -36,9 +36,25 @@ const GradientCardStyled = styled.div`
     border-radius:20px;
     font-size: 1rem;
     transition: all .4s ease-in-out;
+    background: linear-gradient(90deg, #7F41DB 0%, #022894 100%);
+    animation:colors 5s infinite;
+    @keyframes colors {
+        0%{
+            background: linear-gradient(130deg,#eb3fa9,#395ff6 50%,#eb3fa9);
+        }
+        50%{
+            background: linear-gradient(90deg, #7F41DB 0%, #022894 100%);
+        }
+        70%{
+            background: linear-gradient(90deg, #022894 0%, #7F41DB 100%);
+        }
+        100%{
+            background: linear-gradient(130deg,#eb3fa9,#395ff6 50%,#eb3fa9);
+        }
+    }
 
     .g-card{
-        margin:2rem;
+        margin:.2rem;
         .inner-content{
             background-color:#091026;
             padding: 0.8rem;
@@ -58,6 +74,7 @@ const GradientCardStyled = styled.div`
                     position:absolute;
                     left:50%;
                     bottom:-26px;
+                    border-radius:50px;
                     background-color:#03091F;
                     display:flex;
                     align-items:center;
@@ -79,7 +96,7 @@ const GradientCardStyled = styled.div`
             .card-content{
                 padding-top:3rem;
 
-                .card-title{
+                .card-name{
                     font-size:1.3rem;
                     font-weight:500;
                     padding-bottom:0.6rem;
