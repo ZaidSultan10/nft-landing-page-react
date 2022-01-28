@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import time from '../img/time.svg';
 import heart from '../img/heart.svg';
 
-const GradientCard = ({image,avatar,name,price,title}) => {
+const GradientCard = ({image,avatar,name,price,title,ctaButton}) => {
     return (
         <GradientCardStyled>
             <div className='g-card'>
@@ -24,6 +24,9 @@ const GradientCard = ({image,avatar,name,price,title}) => {
                         <div className='duration'>
                             <p><img src={time} alt='' />7 Hours</p>
                             <p><img src={heart} alt='' />150 Likes</p>
+                        </div>
+                        <div className='cta-btns' style={{width:"100%",marginTop:"20px",marginBottom:"5px",marginLeft:'-10px',display:'flex',justifyContent:'center'}}>
+                            {ctaButton}
                         </div>
                     </div>
                 </div>

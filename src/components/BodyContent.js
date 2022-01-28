@@ -5,7 +5,7 @@ import MainTitle from './MainTitle.js'
 import SellerCards from './SellerCards.js'
 import BlogSections from './BlogSections.js'
 import GradientsCardsSection from './GradientsCardsSection.js'
-
+import DemoSection from './DemoSection.js'
 
 const BodyContent = () => {
     return (
@@ -22,6 +22,7 @@ const BodyContent = () => {
                 </div>
                 <BlogSections />
                 <GradientsCardsSection />
+                <DemoSection />
             </InnerLayout>
         </BodyContentStyled>
     )
